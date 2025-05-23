@@ -8,20 +8,3 @@ int main()
 	printf("V = %lf\n",V); 
 	return 0;
 }
-
-
-#include <iostream>
-int main()
-{
-	double h, r, V;
-
-	cout << "Введіть h: ";
-	cin >> h;
-	cout << "Введіть r: ";
-	cin >> r;
-
-    V=3.14*r*r*h;
-	cout << "V =" << V << endl;
-	system("pause");
-	return 0;
-}
